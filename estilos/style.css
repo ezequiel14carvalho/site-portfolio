@@ -192,9 +192,20 @@ footer {
     grid-template-columns: 1fr 1fr;
   }
 
-  #projeto-container .projeto{
-    flex-direction: row-reverse;
+  #projeto-container .projeto {
+    flex-direction: row-reverse; 
+    align-items: center; 
     justify-content: space-between;
   }
-  
+
+  #projeto-container .projeto-info {
+    flex: 1; 
+    padding-right: 20px;
+  }
+
+  #projeto-container .foto {
+    width: 250px; 
+    aspect-ratio: 16 / 9; 
+    max-height: 200px;
+  }
 }
